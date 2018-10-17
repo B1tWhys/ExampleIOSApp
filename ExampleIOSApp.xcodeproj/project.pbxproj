@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4B31DD921774E2C0066328B /* TableNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B31DD821774E2C0066328B /* TableNavViewController.swift */; };
+		D4B31DDB217750070066328B /* NavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B31DDA217750070066328B /* NavTableViewCell.swift */; };
+		D4B31DDD217756E40066328B /* NameDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B31DDC217756E40066328B /* NameDownloader.swift */; };
 		D4D0F36821772F5A00FDDB3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D0F36721772F5A00FDDB3C /* AppDelegate.swift */; };
-		D4D0F36A21772F5A00FDDB3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D0F36921772F5A00FDDB3C /* ViewController.swift */; };
 		D4D0F36D21772F5A00FDDB3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D0F36B21772F5A00FDDB3C /* Main.storyboard */; };
 		D4D0F36F21772F5E00FDDB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D0F36E21772F5E00FDDB3C /* Assets.xcassets */; };
 		D4D0F37221772F5E00FDDB3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D0F37021772F5E00FDDB3C /* LaunchScreen.storyboard */; };
+		D4D0F37A21773DD500FDDB3C /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D0F37921773DD500FDDB3C /* SimpleViewController.swift */; };
+		D4D0F37C2177483A00FDDB3C /* PickerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D0F37B2177483A00FDDB3C /* PickerDemoViewController.swift */; };
+		D4D0F37E21774AED00FDDB3C /* EmoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D0F37D21774AED00FDDB3C /* EmoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4B31DD821774E2C0066328B /* TableNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableNavViewController.swift; sourceTree = "<group>"; };
+		D4B31DDA217750070066328B /* NavTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTableViewCell.swift; sourceTree = "<group>"; };
+		D4B31DDC217756E40066328B /* NameDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDownloader.swift; sourceTree = "<group>"; };
 		D4D0F36421772F5A00FDDB3C /* ExampleIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D0F36721772F5A00FDDB3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4D0F36921772F5A00FDDB3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4D0F36C21772F5A00FDDB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4D0F36E21772F5E00FDDB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4D0F37121772F5E00FDDB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4D0F37321772F5E00FDDB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D0F37921773DD500FDDB3C /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
+		D4D0F37B2177483A00FDDB3C /* PickerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemoViewController.swift; sourceTree = "<group>"; };
+		D4D0F37D21774AED00FDDB3C /* EmoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 		D4D0F36621772F5A00FDDB3C /* ExampleIOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				D4D0F36721772F5A00FDDB3C /* AppDelegate.swift */,
-				D4D0F36921772F5A00FDDB3C /* ViewController.swift */,
 				D4D0F36B21772F5A00FDDB3C /* Main.storyboard */,
+				D4B31DDA217750070066328B /* NavTableViewCell.swift */,
+				D4B31DD821774E2C0066328B /* TableNavViewController.swift */,
+				D4B31DDC217756E40066328B /* NameDownloader.swift */,
+				D4D0F37D21774AED00FDDB3C /* EmoteViewController.swift */,
+				D4D0F37B2177483A00FDDB3C /* PickerDemoViewController.swift */,
+				D4D0F36721772F5A00FDDB3C /* AppDelegate.swift */,
+				D4D0F37921773DD500FDDB3C /* SimpleViewController.swift */,
 				D4D0F36E21772F5E00FDDB3C /* Assets.xcassets */,
 				D4D0F37021772F5E00FDDB3C /* LaunchScreen.storyboard */,
 				D4D0F37321772F5E00FDDB3C /* Info.plist */,
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D0F36A21772F5A00FDDB3C /* ViewController.swift in Sources */,
+				D4B31DD921774E2C0066328B /* TableNavViewController.swift in Sources */,
+				D4D0F37A21773DD500FDDB3C /* SimpleViewController.swift in Sources */,
+				D4D0F37E21774AED00FDDB3C /* EmoteViewController.swift in Sources */,
+				D4B31DDD217756E40066328B /* NameDownloader.swift in Sources */,
+				D4B31DDB217750070066328B /* NavTableViewCell.swift in Sources */,
+				D4D0F37C2177483A00FDDB3C /* PickerDemoViewController.swift in Sources */,
 				D4D0F36821772F5A00FDDB3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
